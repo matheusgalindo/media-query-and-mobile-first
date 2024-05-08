@@ -97,6 +97,7 @@ article#title2 {
   text-align: left;
   font-size: 1.3em;
   color: gray;
+  text-align: justify;
 }
 
 article > h3 {
