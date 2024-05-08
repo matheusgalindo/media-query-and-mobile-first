@@ -91,6 +91,7 @@ article > p {
 
 article > img {
   margin-bottom: 10px;
+  width: 90vw;
 }
 
 article > legend {
