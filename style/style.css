@@ -36,6 +36,7 @@ header > p {
 nav {
   display: block;
   background-color: rgb(6, 35, 112);
+  box-shadow: 0px 2px 4px #00000091;
 }
 
 nav > ul {
@@ -67,6 +68,7 @@ main {
   padding: 20px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  box-shadow: 0px 2px 2px #00000091;
 }
 
 article > h2 {
@@ -98,4 +100,22 @@ article > img {
 
 article > legend {
   margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: rgb(6, 35, 112);
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+footer > p > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+footer > p > a:hover {
+  text-decoration: underline;
 }
