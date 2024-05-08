@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+header {
+  background-image: linear-gradient(rgb(171, 171, 255), rgb(6, 35, 112));
+  color: white;
+  text-shadow: 1px 1px 1px rgb(2, 16, 56);
+  padding: 50px;
+}
+
+header > h1 {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+}
+
+header > p {
+  text-align: center;
+  text-shadow: 1px 1px 0px rgb(2, 16, 56);
+}
+
+nav {
+  display: block;
+  background-color: rgb(6, 35, 112);
+}
+
+nav > ul {
+  list-style-type: none;
+}
+
+nav > ul > li > a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  border-top: 1px solid white;
+}
+
+nav > ul > li > a:hover {
+  background-color: white;
+  color: rgb(6, 35, 112);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: 0.5s;
+}
+
+main {
+  width: 90vw;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+article > h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+article#title2 {
+  text-align: left;
+}
+
+article > h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+article > p {
+  text-align: justify;
+  margin-bottom: 20px;
+  text-indent: 20px;
+}
+
+article > img {
+  margin-bottom: 10px;
+}
+
+article > legend {
+  margin-bottom: 10px;
+}
